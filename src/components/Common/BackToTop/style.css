@@ -1,0 +1,22 @@
+.back-to-top{
+    position: fixed;
+    bottom:1.5rem;
+    right: 1.5rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width:2rem;
+    height: 2rem;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius:10px;
+    cursor: pointer;
+color: var(--blue);
+}
+.back-to-top:hover{
+    color:var(--white);
+    background-color: var(--blue);
+    border: 2px solid var(--white);
+    box-shadow: 2px 2px 5px rgba(58 , 128 , 233 ,0.5);
+    transition: all 0.3s;
+}
