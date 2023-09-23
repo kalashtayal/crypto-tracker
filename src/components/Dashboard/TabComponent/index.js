@@ -41,14 +41,14 @@ palette : {
         </div>
         <TabPanel value="grid">
             <div className='grid-flex'>
-                {
-                    coin.map((coin,i)=>{
-                        return(
-                            <Grid coin={coin} key={i}/>
+            {
+              coin.map((coin,i)=>{
+                return(
+             <Grid coin={coin} key={i}/>
 
-                        )
+                       )
                     })
-                }
+            }
             </div>
         </TabPanel>
         <TabPanel value="list">

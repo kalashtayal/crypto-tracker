@@ -11,6 +11,7 @@ import CoinInfo from '../components/Coins/CoinInfo';
 import {settingChartData} from '../functions/settingChartData';
 import TogglePriceType from '../components/Coins/PriceType';
 import LineChart from '../components/Coins/LineChart';
+import Footer from '../components/Common/Footer';
 
 
 
@@ -123,7 +124,7 @@ function ComparePage() {
   <CoinInfo heading={crypto2Data.name} des={crypto2Data.desc}/>
         
         </>)}
-        
+        <Footer/>
     </div>
   )
 }

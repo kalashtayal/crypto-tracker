@@ -5,7 +5,7 @@ import LandingPage from '../components/LandingPage/Main-components';
 function Home() {
   return (
     <div>
-        <Header/>
+     <Header/>
      <LandingPage/>
     </div>
   )

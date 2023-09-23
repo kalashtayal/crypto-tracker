@@ -14,6 +14,7 @@ import {convertDate} from '../functions/convertDate';
 import SelectDays from '../components/Coins/SelectDays'
 import { settingChartData } from '../functions/settingChartData';
 import TogglePriceType from '../components/Coins/PriceType';
+import Footer from '../components/Common/Footer';
 
 
 function CoinPage() {
@@ -91,6 +92,7 @@ const handlePriceTypeChanges = async (event,newType) =>{
 <CoinInfo heading={coinData.name} des={coinData.desc}/>
    </>
   )}
+  <Footer/>
 </div>
 )
 };

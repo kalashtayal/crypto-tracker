@@ -27,6 +27,7 @@ initial={{opacity:0 , scale:0}}
 animate={{opacity:1,scale:1}}
 transition={{duration:1}}
 >Track crypto through a public api in real time. Visit the dashboard to do so!</motion.p>
+
 <motion.div className='btn-2'
 initial={{opacity:0 , scale:0}}
 animate={{opacity:1,scale:1}}
