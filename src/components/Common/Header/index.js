@@ -4,6 +4,7 @@ import "./style.css";
 import TemporaryDrawer from './drawer';
 import Button from "../Button";
 import { Link } from 'react-router-dom';
+import ThemeChanger from '../../ThemeChanger';
 
 
 function Header() {
@@ -15,6 +16,9 @@ function Header() {
 CryptoTracker<span style={{color:"var(--blue)"}}>.</span>
       </h1>
       <div className='links'>
+      <p>
+        <ThemeChanger/>
+      </p>
       
         <Link to='/'>
           <p className='link'>Home</p>
