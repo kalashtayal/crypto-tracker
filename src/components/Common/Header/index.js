@@ -16,9 +16,9 @@ function Header() {
 CryptoTracker<span style={{color:"var(--blue)"}}>.</span>
       </h1>
       <div className='links'>
-      <p>
+      {/* <p>
         <ThemeChanger/>
-      </p>
+      </p> */}
       
         <Link to='/'>
           <p className='link'>Home</p>
@@ -26,7 +26,7 @@ CryptoTracker<span style={{color:"var(--blue)"}}>.</span>
         <Link to='/compare'>
           <p className='link'>Compare</p>
         </Link>
-        {/* <Link to='/watch'>
+        {/* <Link to='/watchlist'>
           <p className='link'>Watchlist</p>
         </Link> */}
         <Link to='/dashboard'>

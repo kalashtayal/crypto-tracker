@@ -5,8 +5,8 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import { Tooltip } from '@mui/material';
 import { convertNumber } from '../../../functions/convertNumber';
 import { Link } from "react-router-dom";
-// import StarOutlineIcon from '@mui/icons-material/StarOutline';
-// import StarIcon from '@mui/icons-material/Star';
+import StarOutlineIcon from '@mui/icons-material/StarOutline';
+import StarIcon from '@mui/icons-material/Star';
 
 function List({coin}) {
 
@@ -62,6 +62,13 @@ function List({coin}) {
     <td id='mobile-td-mkt'> 
       <p className='list-vol td-right'>${convertNumber(coin.market_cap)}</p>
     </td>
+    {/* <td id="red-star">
+     <StarOutlineIcon/>
+    </td>
+    <td id='icon-star'>
+      <StarIcon/>
+    </td> */}
+
        
 
     </tr>
